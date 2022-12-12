@@ -1,0 +1,39 @@
+{
+  "name": "searchEngine",
+  "version": "1.0.0",
+  "description": "PFE Search Engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "nodemon index.js"
+  },
+  "author": "Houcem SANAI",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/msal-node": "^1.14.3",
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-jwt": "^7.7.5",
+    "fs": "^0.0.1-security",
+    "glob": "^8.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.1",
+    "msnodesqlv8": "^2.7.0",
+    "mssql": "^9.0.1",
+    "mysql2": "^2.3.3",
+    "node-imap": "^0.9.6",
+    "passport": "^0.6.0",
+    "passport-outlook": "^3.0.0",
+    "qs": "^6.11.0",
+    "search-in-file": "^2.2.2",
+    "sequelize": "^6.21.4",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
